@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <main className="bg-gradient-to-r from-[#1A1A1A] to-[#000000] w-full py-4 px-16 flex justify-between items-center">
       <Link to="/">
-        <img src="../src/assets/logo.svg" className="cursor-pointer h-9"/>
+        <img src="/logo.svg" className="cursor-pointer h-9"/>
       </Link>
       <nav className="flex justify-between gap-8 items-center">
         {navLinks.map((navLink) => {
