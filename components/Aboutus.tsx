@@ -10,10 +10,10 @@ const Aboutus = () => {
       </main>
 
       <main className="w-full h-full bg-centergradient bg-center flex flex-col gap-16 items-center justify-center">
-        <img src="../src/assets/aboutmodel.svg" className="w-[480px] h-[363px]"/>
+        <img src="/aboutmodel.svg" className="w-[480px] h-[363px]"/>
 
         <Link to="/" className="w-full flex justify-end">
-          <img src="../src/assets/aboutarrow.svg"/>
+          <img src="/aboutarrow.svg"/>
         </Link>
       </main>
     </section>
