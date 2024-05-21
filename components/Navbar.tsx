@@ -7,11 +7,11 @@ const Navbar = () => {
   const location = useLocation().pathname;
 
   return (
-    <main className="bg-gradient-to-r from-[#1A1A1A] to-[#000000] w-full py-4 px-16 flex justify-between items-center">
+    <main className="bg-gradient-to-r from-[#1A1A1A] to-[#000000] w-full py-4 px-6 md:px-12 lg:px-16 flex justify-between items-center">
       <Link to="/">
-        <img src="/logo.svg" className="cursor-pointer h-9"/>
+        <img src="/logo.svg" className="cursor-pointer h-4 md:h-7 lg:h-9"/>
       </Link>
-      <nav className="flex justify-between gap-8 items-center">
+      <nav className="hidden lg:flex justify-between gap-8 items-center">
         {navLinks.map((navLink) => {
 
           const isActive = (location.includes(navLink.route) && navLink.route.length > 1 || location === navLink.route);

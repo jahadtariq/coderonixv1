@@ -14,11 +14,11 @@ const Home = () => {
       <Aboutus/>
       <Services/>
       <Projects/>
-      <div className="bg-yellow flex justify-evenly px-6 py-4 h-contain font-neue text-[#000]">
+      <div className="bg-yellow flex flex-wrap justify-evenly px-6 py-4 h-contain font-neue text-[#000]">
         {AchievementList.map((item) =>(
           <div className="flex items-center gap-2">
             <img src={item.image}/>
-            <p className="text-[48px] leading-[77px] font-normal"><span className="font-bold">{item.number}{item.isplus ? '+' : ''} </span> {item.label}</p>
+            <p className="text-[20px] md:text-[48px] leading-[77px] font-normal"><span className="font-bold">{item.number}{item.isplus ? '+' : ''} </span> {item.label}</p>
           </div>
         ))}
       </div>

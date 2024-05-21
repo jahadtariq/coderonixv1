@@ -18,8 +18,8 @@ SwiperCore.use([Autoplay]);
 const Services = () => {
 
   return (
-    <div className="shadow-[#000000E5] shadow-4xl w-full h-contain flex flex-col gap-10 items-center p-16 bg-centergradient bg-center bg-no-repeat overflow-hidden">
-          <div className="uppercase text-[180px] leading-[165px] font-bold mb-20">services</div>
+    <div className="shadow-[#000000E5] shadow-4xl w-full h-contain flex flex-col gap-10 items-center p-12 lg:p-16 bg-centergradient bg-center bg-no-repeat overflow-hidden">
+          <div className="uppercase text-[60px] md:text-[120px] lg:text-[180px] leading-[165px] font-bold lg:mb-20">services</div>
           <Swiper
             loop={true}
             autoplay={{ delay: 3000 }}
@@ -40,9 +40,9 @@ const Services = () => {
                 slidesPerView: 1,
                 spaceBetween: 20,
               },
-              768: {
+              860: {
                 slidesPerView: 2,
-                spaceBetween: 30,
+                spaceBetween: 100,
               },
               1024: {
                 slidesPerView: 3,
@@ -64,7 +64,7 @@ const Services = () => {
           </Swiper>
 
           <Link to="/" className="w-full flex justify-center items-center mt-10">
-            <img src="/aboutarrow.svg"/>
+            <img src="aboutarrow.svg" className="w-[180px] md:w-auto"/>
           </Link>
         </div>
   )

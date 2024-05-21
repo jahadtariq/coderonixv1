@@ -15,11 +15,11 @@ const PreFooter = () => {
   return (
     <section className="flex flex-col items-center gap-16 font-neue">
 
-      <div className="px-16 pt-32 grid grid-cols-3 gap-6">
-        <p className="col-span-2 text-[190px] leading-[175px] font-bold uppercase">Why <span className="text-yellow">choose</span> Us</p>
-        <div className="flex flex-col gap-10 items-center justify-center">
-          <img src="/question.svg" className="w-[350px] h-[350px]"/>
-          <img src="/angledown.svg" className="w-[210px] h-[100px]"/>
+      <div className="px-6 md:px-16 pt-16 md:pt-32 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <p className="lg:col-span-2 text-[60px] leading-[60px] md:text-[120px] md:leading-[100px] lg:text-[190px] lg:leading-[175px] font-bold uppercase">Why <span className="text-yellow">choose</span> Us</p>
+        <div className="hidden md:flex flex-col gap-10 items-center justify-center">
+          <img src="question.svg" className="w-[175px] h-[175px] lg:w-[350px] lg:h-[350px]"/>
+          <img src="angledown.svg" className="w-[105px] h-[50px] lg:w-[210px] lg:h-[100px]"/>
         </div>
       </div>
 
@@ -33,19 +33,19 @@ const PreFooter = () => {
           >
             {FooterList.map((item) => (
                 <SwiperSlide className="w-contain h-contain">
-                  <div className="w-full h-[900px] flex items-start justify-center pb-32 -pt-10">
-                    <div className=" w-[70%] h-[670px] relative">
+                  <div className="w-full h-[550px] md:h-[900px] flex items-start justify-center pb-32 -pt-10">
+                    <div className="w-full px-4 md:px-0 lg:w-[70%] h-[670px] relative">
                     
                     <div className="absolute top-10">
-                      <img src={item.image}/>
+                      <img src={item.image} className="w-[150px] h-[150px] w-[250px] h-[250px] lg:w-auto lg:h-auto"/>
                     </div>
 
-                    <div className="absolute w-[800px] h-[410px] rounded-[52px] bg-white/20 top-44 left-32 flex flex-col px-10 py-20 gap-10">
-                      <h1 className="text-yellow uppercase text-[40px] font-bold leading-[60px]">{item.heading}</h1>
-                      <p className="text-justify text-white text-[30px] font-normal leading-[36.5px]">{item.description}</p>
+                    <div className="absolute w-[400px] h-[250px] md:w-[800px] md:h-[410px] rounded-[52px] bg-white/20 top-28 left-16 md:top-44 md:left-32 flex flex-col px-4 py-8 md:px-10 md:py-20 gap-4 md:gap-10">
+                      <h1 className="text-yellow uppercase text-[20px] md:text-[40px] font-bold leading-[30px] md:leading-[60px]">{item.heading}</h1>
+                      <p className="text-justify text-white text-[16px] md:text-[30px] font-normal md:leading-[36.5px]">{item.description}</p>
                     </div>
 
-                    <h1 className="absolute text-yellow font-bold text-[250px] leading-[230px] bottom-0 right-10">{item.number}</h1>
+                    <h1 className="absolute text-yellow font-bold text-[85px] md:text-[250px] md:leading-[230px] bottom-64 right-10 md:bottom-0 md:right-10">{item.number}</h1>
 
                     </div>
                   </div>

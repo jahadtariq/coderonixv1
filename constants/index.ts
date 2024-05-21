@@ -108,50 +108,50 @@ export const footerCommunityLinks = [
 export const ServicesList = [
   {
     label: "Data",
-    url: "/datamodel.svg"
+    url: "datamodel.svg"
   },
   {
     label: "App Dev",
-    url: '/appmodel.svg',
+    url: 'appmodel.svg',
   },
   {
     label: "Web Dev",
-    url: '/webmodel.svg',
+    url: 'webmodel.svg',
   },
   {
     label: "AI",
-    url: '/aimodel.svg',
+    url: 'aimodel.svg',
   },
   {
     label: "More",
-    url: '/othersmodel.svg',
+    url: 'othersmodel.svg',
   },
 ]
 
 export const ProjectsList = [
   {
     heading: "Horizon",
-    image: "/datamodel.svg",
+    image: "datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   {
     heading: "threads",
-    image: "/datamodel.svg",
+    image: "datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   {
     heading: "meta",
-    image: "/datamodel.svg",
+    image: "datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   {
     heading: "cancer",
-    image: "/datamodel.svg",
+    image: "datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   {
     heading: "portfolio",
-    image: "/datamodel.svg",
+    image: "datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   
@@ -161,19 +161,19 @@ export const AchievementList = [
   {
     number: 20,
     isplus: true,
-    image: "/achone.svg",
+    image: "achone.svg",
     label: "members",
   },
   {
     number: 2,
     isplus: true,
-    image: "/achtwo.svg",
+    image: "achtwo.svg",
     label: "yrs avg clientship",
   },
   {
     number: 2024,
     isplus: false,
-    image: "/achthree.svg",
+    image: "achthree.svg",
     label: "founded",
   },
 
@@ -181,25 +181,25 @@ export const AchievementList = [
 
 export const FooterList = [
   {
-    image: "/footermodel.svg",
+    image: "footermodel.svg",
     heading: "Scalability and Flexibility 1",
     description: "Our solutions seamlessly adapt to your business needs, ensuring smooth growth regardless of your company's size or stage.",
     number: "01",
   },
   {
-    image: "/footermodel.svg",
+    image: "footermodel.svg",
     heading: "Scalability and Flexibility 2",
     description: "Our solutions seamlessly adapt to your business needs, ensuring smooth growth regardless of your company's size or stage.",
     number: "02",
   },
   {
-    image: "/footermodel.svg",
+    image: "footermodel.svg",
     heading: "Scalability and Flexibility 3",
     description: "Our solutions seamlessly adapt to your business needs, ensuring smooth growth regardless of your company's size or stage.",
     number: "03",
   },
   {
-    image: "/footermodel.svg",
+    image: "footermodel.svg",
     heading: "Scalability and Flexibility 4",
     description: "Our solutions seamlessly adapt to your business needs, ensuring smooth growth regardless of your company's size or stage.",
     number: "04",
