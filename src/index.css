@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+    .font-outline-white-1 {
+      -webkit-text-stroke: 1px white;
+    }
+
+    .font-outline-white-4 {
+      -webkit-text-stroke: 4px white;
+    }
+}
+
+.mainBody{
+    background-color: #1A1A1A;
+    color: #ffffff;
+}
