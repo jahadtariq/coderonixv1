@@ -64,7 +64,7 @@ const Services = () => {
           </Swiper>
 
           <Link to="/" className="w-full flex justify-center items-center mt-10">
-            <img src="../src/assets/aboutarrow.svg"/>
+            <img src="/aboutarrow.svg"/>
           </Link>
         </div>
   )
