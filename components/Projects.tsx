@@ -69,7 +69,7 @@ const Projects = () => {
       <div className="w-full flex flex-row items-center justify-end gap-16 px-16">
           <p className="text-yellow font-normal text-[18px] leading-[27px] text-right max-w-[530px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
           <Link to={"/"}>
-            <img src="../src/assets/arrowwhite.svg" alt=""/>
+            <img src="/arrowwhite.svg" alt=""/>
           </Link>
       </div>
 
