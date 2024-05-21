@@ -18,8 +18,8 @@ const PreFooter = () => {
       <div className="px-16 pt-32 grid grid-cols-3 gap-6">
         <p className="col-span-2 text-[190px] leading-[175px] font-bold uppercase">Why <span className="text-yellow">choose</span> Us</p>
         <div className="flex flex-col gap-10 items-center justify-center">
-          <img src="../src/assets/question.svg" className="w-[350px] h-[350px]"/>
-          <img src="../src/assets/angledown.svg" className="w-[210px] h-[100px]"/>
+          <img src="/question.svg" className="w-[350px] h-[350px]"/>
+          <img src="/angledown.svg" className="w-[210px] h-[100px]"/>
         </div>
       </div>
 
