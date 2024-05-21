@@ -8,20 +8,20 @@ const Footer = () => {
       <div className="grid grid-cols-5">
         <div className="flex flex-col gap-8 col-span-2">
           <Link to="/">
-            <img src="../src/assets/logoblack.svg" className="h-10"/>
+            <img src="/logoblack.svg" className="h-10"/>
           </Link>
 
           <p className="text-[16px] font-normal max-w-[300px]">Our vision is to provide convenience and help increase your sales business.</p>
 
           <div className="flex gap-2 items-start">
             <Link to="/">
-              <img src="../src/assets/Twitter.svg"/>
+              <img src="/Twitter.svg"/>
             </Link>
             <Link to="/">
-              <img src="../src/assets/Instagram.svg"/>
+              <img src="/Instagram.svg"/>
             </Link>
             <Link to="/">
-              <img src="../src/assets/Facebook.svg"/>
+              <img src="/Facebook.svg"/>
             </Link>
           </div>
         </div>
