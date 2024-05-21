@@ -108,50 +108,50 @@ export const footerCommunityLinks = [
 export const ServicesList = [
   {
     label: "Data",
-    url: "../src/assets/datamodel.svg"
+    url: "/datamodel.svg"
   },
   {
     label: "App Dev",
-    url: '../src/assets/appmodel.svg',
+    url: '/appmodel.svg',
   },
   {
     label: "Web Dev",
-    url: '../src/assets/webmodel.svg',
+    url: '/webmodel.svg',
   },
   {
     label: "AI",
-    url: '../src/assets/aimodel.svg',
+    url: '/aimodel.svg',
   },
   {
     label: "More",
-    url: '../src/assets/othersmodel.svg',
+    url: '/othersmodel.svg',
   },
 ]
 
 export const ProjectsList = [
   {
     heading: "Horizon",
-    image: "../src/assets/datamodel.svg",
+    image: "/datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   {
     heading: "threads",
-    image: "../src/assets/datamodel.svg",
+    image: "/datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   {
     heading: "meta",
-    image: "../src/assets/datamodel.svg",
+    image: "/datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   {
     heading: "cancer",
-    image: "../src/assets/datamodel.svg",
+    image: "/datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   {
     heading: "portfolio",
-    image: "../src/assets/datamodel.svg",
+    image: "/datamodel.svg",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aperiam possimus incidunt enim nihil nobis consectetur nesciunt rem vitae, nulla aut itaque ut fugit ipsam.",
   },
   
@@ -161,19 +161,19 @@ export const AchievementList = [
   {
     number: 20,
     isplus: true,
-    image: "../src/assets/achone.svg",
+    image: "/achone.svg",
     label: "members",
   },
   {
     number: 2,
     isplus: true,
-    image: "../src/assets/achtwo.svg",
+    image: "/achtwo.svg",
     label: "yrs avg clientship",
   },
   {
     number: 2024,
     isplus: false,
-    image: "../src/assets/achthree.svg",
+    image: "/achthree.svg",
     label: "founded",
   },
 
@@ -181,25 +181,25 @@ export const AchievementList = [
 
 export const FooterList = [
   {
-    image: "../src/assets/footermodel.svg",
+    image: "/footermodel.svg",
     heading: "Scalability and Flexibility 1",
     description: "Our solutions seamlessly adapt to your business needs, ensuring smooth growth regardless of your company's size or stage.",
     number: "01",
   },
   {
-    image: "../src/assets/footermodel.svg",
+    image: "/footermodel.svg",
     heading: "Scalability and Flexibility 2",
     description: "Our solutions seamlessly adapt to your business needs, ensuring smooth growth regardless of your company's size or stage.",
     number: "02",
   },
   {
-    image: "../src/assets/footermodel.svg",
+    image: "/footermodel.svg",
     heading: "Scalability and Flexibility 3",
     description: "Our solutions seamlessly adapt to your business needs, ensuring smooth growth regardless of your company's size or stage.",
     number: "03",
   },
   {
-    image: "../src/assets/footermodel.svg",
+    image: "/footermodel.svg",
     heading: "Scalability and Flexibility 4",
     description: "Our solutions seamlessly adapt to your business needs, ensuring smooth growth regardless of your company's size or stage.",
     number: "04",
